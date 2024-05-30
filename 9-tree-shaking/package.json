@@ -1,0 +1,21 @@
+{
+  "name": "9-tree-shaking",
+  "sideEffects": false,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:dev": "webpack --config webpack.dev.js",
+    "build:prod": "webpack --config webpack.prod.js",
+    "serve": "npx serve dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lodash": "^4.17.21",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
